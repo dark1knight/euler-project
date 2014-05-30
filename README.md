@@ -1,3 +1,3 @@
 euler-project
 =============
-hello
+learning rust and doing some euler problems!
