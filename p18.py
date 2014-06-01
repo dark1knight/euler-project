@@ -4,11 +4,11 @@
 # given row and and index at row+1, what elements can the
 # index element see?
 # example:
-# 1 2 3
+#  1 2 3
 # 4 5 6 7
-# here, 5 (index 1) can see 1 (index 0),2 (index 1) and 3 (index 2)
+# here, 5 (index 1) can see 1 (index 0),2 (index 1)
 #       6 (index 2) can see 2 (index 1), 3 (index 2)
-# any node can see at most 3 elements above it
+# any node can see at most 2 elements on the row above it
 def get_accessible(row, index):
 	row_len = len(row)
 	ret_val = list()
